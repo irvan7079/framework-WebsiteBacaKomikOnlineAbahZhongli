@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="{{ asset('assets/images/LogoZhongli.ico') }}">
 
-    <title>{{ $title }}</title>
+    <title>Komik Online</title>
     @vite('resources/css/app.css')
 </head>
 

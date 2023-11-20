@@ -1,4 +1,4 @@
-<a href="" class="group relative bg-black px-8 py-4 w-36 rounded-lg font-bold flex justify-center gap-4 hover:scale-105 group/expand-hover:px-10 hover:bg-yellow-600 transition ease-in">
+<a href="{{ route('login') }}" class="group relative bg-black px-8 py-4 w-36 rounded-lg font-bold flex justify-center gap-4 hover:scale-105 group/expand-hover:px-10 hover:bg-yellow-600 transition ease-in">
     <p class="invisible">{{ $nama }}</p>
     <p class="absolute text-white group-hover:-translate-x-[40%] transition ease-out">{{ $nama }}</p>
     <span class="absolute invisible group-hover:visible group-hover:inline-block group-hover:translate-x-[150%] transition ease-out ">
